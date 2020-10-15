@@ -7,3 +7,4 @@ router.get('/', function (req, res) {
         {id:1, title: "Hello, from /routes/posts.js!"}
     ])
 })
+
