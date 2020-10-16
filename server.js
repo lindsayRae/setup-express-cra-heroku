@@ -7,12 +7,12 @@ const path = require('path')
 console.log('in server PORT: ', port)
 console.log('in server process.env.NODE_ENV: ', process.env.NODE_ENV)
 
-app.get('/', (req, res) => {
-  console.log('In get request ...')
-  res.json([
-      {id:1, title: "Hello, this is data from server.js!"}
-  ])
-})
+// app.get('/', (req, res) => {
+//   console.log('In get request ...')
+//   res.json([
+//       {id:1, title: "Hello, this is data from server.js!"}
+//   ])
+// })
 
 app.get('/api', (req, res) => {
   console.log('In get request ...')
